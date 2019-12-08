@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a97e0d7-1f97-4109-9601-24b55dce4346" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/advent/four/PasswordCracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/advent2020/four/SecureContainerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advent/three/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advent/three/Coordinate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advent/three/Wire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advent/three/Wire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/advent2020/three/WiresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/advent2020/three/WiresTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +22,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindBugs-IDEA-Workspace">
-    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +83,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WiresTest.testInputTwo">
+  <component name="RunManager" selected="JUnit.SecureContainerTest.testPartOne">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -96,6 +92,40 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecureContainerTest.predicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.advent2020.four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.advent2020.four" />
+      <option name="MAIN_CLASS_NAME" value="com.advent2020.four.SecureContainerTest" />
+      <option name="METHOD_NAME" value="predicateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecureContainerTest.testPartOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.advent2020.four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.advent2020.four" />
+      <option name="MAIN_CLASS_NAME" value="com.advent2020.four.SecureContainerTest" />
+      <option name="METHOD_NAME" value="testPartOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,40 +157,6 @@
       <option name="PACKAGE_NAME" value="com.advent2020.three" />
       <option name="MAIN_CLASS_NAME" value="com.advent2020.three.WiresTest" />
       <option name="METHOD_NAME" value="intersectionOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WiresTest.intersectionTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.advent2020.three.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.advent2020.three" />
-      <option name="MAIN_CLASS_NAME" value="com.advent2020.three.WiresTest" />
-      <option name="METHOD_NAME" value="intersectionTwo" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WiresTest.testInputOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.advent2020.three.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.advent2020.three" />
-      <option name="MAIN_CLASS_NAME" value="com.advent2020.three.WiresTest" />
-      <option name="METHOD_NAME" value="testInputOne" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -211,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SecureContainerTest.testPartOne" />
+        <item itemvalue="JUnit.SecureContainerTest.predicateTest" />
         <item itemvalue="JUnit.WiresTest.testInputTwo" />
         <item itemvalue="JUnit.WiresTest.intersectionOne" />
         <item itemvalue="JUnit.WiresTest" />
-        <item itemvalue="JUnit.WiresTest.testInputOne" />
-        <item itemvalue="JUnit.WiresTest.intersectionTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +252,7 @@
       <workItem from="1575806434041" duration="507000" />
       <workItem from="1575807002859" duration="66000" />
       <workItem from="1575807094443" duration="26000" />
-      <workItem from="1575808448768" duration="12748000" />
+      <workItem from="1575808448768" duration="14633000" />
     </task>
     <task id="LOCAL-00001" summary="two star">
       <created>1575828727231</created>
@@ -297,10 +293,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="two star test cases" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="721" y="313" key="#com.intellij.ide.util.MemberChooser" timestamp="1575836806178">
+    <state x="721" y="313" key="#com.intellij.ide.util.MemberChooser" timestamp="1575837870910">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="721" y="313" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1575836806178" />
+    <state x="721" y="313" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1575837870910" />
     <state x="773" y="334" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1177@0.23.1920.1177" timestamp="1575666619867" />
     <state x="564" y="266" width="828" height="654" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575824563457">
       <screen x="0" y="23" width="1792" height="1097" />
@@ -316,25 +312,25 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1575828752405" />
-    <state width="1750" height="303" key="GridCell.Tab.0.bottom" timestamp="1575836980189">
+    <state width="1750" height="303" key="GridCell.Tab.0.bottom" timestamp="1575839083881">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575836980189" />
+    <state width="1750" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575839083881" />
     <state width="1878" height="216" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763582" />
-    <state width="1750" height="303" key="GridCell.Tab.0.center" timestamp="1575836980188">
+    <state width="1750" height="303" key="GridCell.Tab.0.center" timestamp="1575839083880">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575836980188" />
+    <state width="1750" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575839083880" />
     <state width="1878" height="216" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763581" />
-    <state width="1750" height="303" key="GridCell.Tab.0.left" timestamp="1575836980188">
+    <state width="1750" height="303" key="GridCell.Tab.0.left" timestamp="1575839083879">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575836980188" />
+    <state width="1750" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575839083879" />
     <state width="1878" height="216" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763580" />
-    <state width="1750" height="303" key="GridCell.Tab.0.right" timestamp="1575836980189">
+    <state width="1750" height="303" key="GridCell.Tab.0.right" timestamp="1575839083880">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575836980189" />
+    <state width="1750" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575839083880" />
     <state width="1878" height="216" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763581" />
     <state width="1750" height="534" key="GridCell.Tab.1.bottom" timestamp="1575836917994">
       <screen x="0" y="23" width="1792" height="1097" />
