@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a97e0d7-1f97-4109-9601-24b55dce4346" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26ff4f334a098a6d2b63b2fd25b0e30d41799f6a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5ea5108722c699e9b73c506143e8120321f961a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4523eb7ba8bf866ddd25deac53e4171531c48fa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/advent/one/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advent/one/Module.java" afterDir="false" />
     </list>
@@ -51,6 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -62,7 +68,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -223,11 +232,28 @@
       <workItem from="1575665229512" duration="497000" />
       <workItem from="1575665867872" duration="113000" />
       <workItem from="1575665999895" duration="6536000" />
+      <workItem from="1575806434041" duration="507000" />
+      <workItem from="1575807002859" duration="66000" />
+      <workItem from="1575807094443" duration="26000" />
+      <workItem from="1575808448768" duration="733000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="773" y="334" key="#com.intellij.ide.util.MemberChooser" timestamp="1575666619867">
@@ -238,9 +264,10 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="604" y="284" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1575672121824" />
-    <state x="648" y="346" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575665881576">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state x="605" y="324" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575807006386">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
+    <state x="605" y="324" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575807006386" />
     <state x="648" y="346" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1575665881576" />
     <state width="1878" height="216" key="GridCell.Tab.0.bottom" timestamp="1575672763582">
       <screen x="0" y="23" width="1920" height="1177" />
@@ -258,14 +285,19 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1878" height="216" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763581" />
-    <state x="461" y="250" key="SettingsEditor" timestamp="1575666597664">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state x="430" y="235" key="SettingsEditor" timestamp="1575821699623">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
+    <state x="430" y="235" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1575821699623" />
     <state x="461" y="250" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1575666597664" />
     <state x="664" y="512" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575666937646">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="664" y="512" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1920.1177@0.23.1920.1177" timestamp="1575666937646" />
+    <state x="679" y="495" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575821053229">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="679" y="495" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1575821053229" />
     <state x="625" y="288" width="670" height="676" key="search.everywhere.popup" timestamp="1575672058816">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>

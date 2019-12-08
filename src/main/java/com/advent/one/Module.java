@@ -43,11 +43,11 @@ public class Module {
     private static BigDecimal requiredFullFuel(BigDecimal mass){
         BigDecimal fuel =  requiredFuel(mass);
 
-        switch (fuel.compareTo(BigDecimal.ZERO)){
-            case 0: return fuel;
-            case 1: return fuel.add(requiredFullFuel(fuel));
-            default:  return BigDecimal.ZERO;
-        }
+        return switch (fuel.compareTo(BigDecimal.ZERO)){
+            case 0: yield fuel;
+            case 1: yield fuel.add(requiredFullFuel(fuel));
+            default: yield BigDecimal.ZERO;
+        };
     }
 
     public int requiredFullFuelEx() {
