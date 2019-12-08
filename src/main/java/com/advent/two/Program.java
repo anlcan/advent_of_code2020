@@ -10,10 +10,15 @@ import java.util.stream.Collectors;
 public class Program {
 
     private final List<Integer> intCode;
-    private int head = 0;
+    private int instructionPointer = 0;
 
     public Program(List<Integer> intCode) {
         this.intCode = intCode;
+    }
+
+    public void setNounAndVerb(int noun, int verb){
+        intCode.set(1, noun);
+        intCode.set(2, verb);
     }
 
     public static Program of(String input) {
@@ -25,36 +30,40 @@ public class Program {
     from which you should read the input values, and the third indicates the position at which the output should be stored.
     */
     public int execute() {
-        System.out.println(String.format("executing code at %s: %s", head, intCode.get(head)));
-        return switch (intCode.get(head)) {
+        //System.out.println(String.format("executing code at %s: %s", instructionPointer, intCode.get(instructionPointer)));
+        final Integer instruction = intCode.get(instructionPointer);
+        return switch (instruction) {
             case 1: {
                 opCodeOne();
-                head += 4;
                 yield execute();
             }
             case 2: {
                 opCodeTwo();
-                head += 4;
                 yield execute();
             }
             case 99:
                 yield intCode.get(0);
             default:
-                throw new RuntimeException("unknown opcode: " + intCode.get(head));
+                //throw new RuntimeException("unknown opcode: " + intCode.get(instructionPointer));
+                //System.out.println("unknown code: " + instruction);
+                yield -1;
         };
     }
 
     private void opCodeOne() {
-        var one = intCode.get(intCode.get(head+1));
-        var two = intCode.get(intCode.get(head+2));
-        var target = intCode.get(head+3);
-        intCode.set(target, one + two);
+        var par1 = intCode.get(intCode.get(instructionPointer +1));
+        var par2 = intCode.get(intCode.get(instructionPointer +2));
+        var target = intCode.get(instructionPointer +3);
+        intCode.set(target, par1 + par2);
+        instructionPointer += 4;
     }
 
     private void opCodeTwo() {
-        var one = intCode.get(intCode.get(head+1));
-        var two = intCode.get(intCode.get(head+2));
-        var target = intCode.get(head+3);
+        var one = intCode.get(intCode.get(instructionPointer +1));
+        var two = intCode.get(intCode.get(instructionPointer +2));
+        var target = intCode.get(instructionPointer +3);
         intCode.set(target, one * two);
+        instructionPointer += 4;
+
     }
 }
