@@ -10,12 +10,23 @@ import java.util.stream.IntStream;
  */
 public class Coordinate implements Comparable{
 
+    public static final Coordinate ZERO = new Coordinate(0,0,0);
     private final int x;
     private final int y;
+    private final int step;
 
-    public Coordinate(int x, int y) {
+    public Coordinate(int x, int y, int step) {
         this.x = x;
         this.y = y;
+        this.step = step;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
     }
 
     @Override
@@ -46,14 +57,20 @@ public class Coordinate implements Comparable{
         return Math.abs(x) + Math.abs(y);
     }
 
+    public int getStep() {
+        return step;
+    }
+
     public Coordinate apply(String ins) {
         char c = ins.charAt(0);
         int digit = Integer.parseInt(ins.substring(1));
+        int nextStep = step + digit;
         return switch (c) {
-            case 'R': yield new Coordinate(x + digit, y);
-            case 'L': yield new Coordinate(x - digit, y);
-            case 'U': yield new Coordinate(x, y + digit);
-            case 'D': yield new Coordinate(x , y - digit);
+            case 'R': yield new Coordinate(x + digit, y, nextStep);
+            case 'L': yield new Coordinate(x - digit, y, nextStep);
+            case 'U': yield new Coordinate(x, y + digit, nextStep);
+            case 'D': yield new Coordinate(x , y - digit, nextStep);
+
             default: throw new InvalidParameterException("unknown direction" + c);
         };
     }
@@ -62,10 +79,10 @@ public class Coordinate implements Comparable{
         char c = ins.charAt(0);
         int digit = Integer.parseInt(ins.substring(1));
         var range =  switch (c) {
-            case 'R': yield IntStream.rangeClosed(x, x + digit).mapToObj(it -> new Coordinate(it, y));
-            case 'L': yield IntStream.rangeClosed(x - digit, x).mapToObj(it -> new Coordinate(it, y));
-            case 'U': yield IntStream.rangeClosed(y, y + digit).mapToObj(it -> new Coordinate(x, it));
-            case 'D': yield IntStream.rangeClosed(y - digit, y).mapToObj(it -> new Coordinate(x, it));
+            case 'R': yield IntStream.rangeClosed(x, x + digit).mapToObj(it -> new Coordinate(it, y, step + Math.abs(x-it)));
+            case 'L': yield IntStream.rangeClosed(x - digit, x).mapToObj(it -> new Coordinate(it, y, step + Math.abs(x-it)));
+            case 'U': yield IntStream.rangeClosed(y, y + digit).mapToObj(it -> new Coordinate(x, it, step + Math.abs(y-it)));
+            case 'D': yield IntStream.rangeClosed(y - digit, y).mapToObj(it -> new Coordinate(x, it, step + Math.abs(y-it)));
             default: throw new InvalidParameterException("unknown direction" + c);
         };
         return range.collect(Collectors.toList());

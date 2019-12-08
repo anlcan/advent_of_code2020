@@ -22,7 +22,8 @@ public class WiresTest {
         w2.tracePath();
 
         var intersection = w1.intersection(w2);
-        assertEquals(159, intersection.get(1).distance());
+        assertEquals(159, intersection.get(0).distance());
+        assertEquals(610, w1.fastestIntersection(w2).get(0).getStep());
     }
 
     @Test
@@ -34,12 +35,13 @@ public class WiresTest {
         w2.tracePath();
 
         var intersection = w1.intersection(w2);
-        assertEquals(135, intersection.get(1).distance());
+        assertEquals(135, intersection.get(0).distance());
+        assertEquals(410, w1.fastestIntersection(w2).get(0).getStep());
     }
 
     @Test
     public void testInputOne(){
-        List<String> inputs = Util.readStrings("/three1/input1.txt");
+        List<String> inputs = Util.readStrings("/three/input1.txt");
 
         var w1 = Wire.of(inputs.get(0));
         var w2 = Wire.of(inputs.get(1));
@@ -48,7 +50,21 @@ public class WiresTest {
         w2.tracePath();
 
         var intersection = w1.intersection(w2);
-        System.out.println(intersection.get(1).distance());
+        System.out.println(intersection.get(0).distance()); // 232
+
+    }
+
+    @Test
+    public void testInputTwo(){
+        List<String> inputs = Util.readStrings("/three/input1.txt");
+
+        var w1 = Wire.of(inputs.get(0));
+        var w2 = Wire.of(inputs.get(1));
+
+        w1.tracePath();
+        w2.tracePath();
+
+        System.out.println(w1.fastestIntersection(w2).get(0).getStep()); //6084
 
     }
 }
