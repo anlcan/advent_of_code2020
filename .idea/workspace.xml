@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a97e0d7-1f97-4109-9601-24b55dce4346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advent/four/PasswordCracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/advent2020/four/SecureContainerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/advent/four/PasswordCracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advent/four/PasswordCracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/advent2020/four/SecureContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/advent2020/four/SecureContainerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SecureContainerTest.testPartOne">
+  <component name="RunManager" selected="JUnit.SecureContainerTest.testPartTwo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -130,33 +130,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WiresTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecureContainerTest.testPartTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.advent2020.three.*" />
+          <option name="PATTERN" value="com.advent2020.four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.advent2020.three" />
-      <option name="MAIN_CLASS_NAME" value="com.advent2020.three.WiresTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.advent2020.four" />
+      <option name="MAIN_CLASS_NAME" value="com.advent2020.four.SecureContainerTest" />
+      <option name="METHOD_NAME" value="testPartTwo" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WiresTest.intersectionOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecureContainerTest.trickyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.advent2020.three.*" />
+          <option name="PATTERN" value="com.advent2020.four.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.advent2020.three" />
-      <option name="MAIN_CLASS_NAME" value="com.advent2020.three.WiresTest" />
-      <option name="METHOD_NAME" value="intersectionOne" />
+      <option name="PACKAGE_NAME" value="com.advent2020.four" />
+      <option name="MAIN_CLASS_NAME" value="com.advent2020.four.SecureContainerTest" />
+      <option name="METHOD_NAME" value="trickyTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -207,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SecureContainerTest.testPartOne" />
+        <item itemvalue="JUnit.SecureContainerTest.testPartTwo" />
+        <item itemvalue="JUnit.SecureContainerTest.trickyTest" />
         <item itemvalue="JUnit.SecureContainerTest.predicateTest" />
+        <item itemvalue="JUnit.SecureContainerTest.testPartOne" />
         <item itemvalue="JUnit.WiresTest.testInputTwo" />
-        <item itemvalue="JUnit.WiresTest.intersectionOne" />
-        <item itemvalue="JUnit.WiresTest" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +253,7 @@
       <workItem from="1575806434041" duration="507000" />
       <workItem from="1575807002859" duration="66000" />
       <workItem from="1575807094443" duration="26000" />
-      <workItem from="1575808448768" duration="14633000" />
+      <workItem from="1575808448768" duration="18407000" />
     </task>
     <task id="LOCAL-00001" summary="two star">
       <created>1575828727231</created>
@@ -312,42 +313,42 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1575828752405" />
-    <state width="1750" height="303" key="GridCell.Tab.0.bottom" timestamp="1575839083881">
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom" timestamp="1575842462642">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575839083881" />
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575842462642" />
     <state width="1878" height="216" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763582" />
-    <state width="1750" height="303" key="GridCell.Tab.0.center" timestamp="1575839083880">
+    <state width="1750" height="392" key="GridCell.Tab.0.center" timestamp="1575842462641">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575839083880" />
+    <state width="1750" height="392" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575842462641" />
     <state width="1878" height="216" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763581" />
-    <state width="1750" height="303" key="GridCell.Tab.0.left" timestamp="1575839083879">
+    <state width="1750" height="392" key="GridCell.Tab.0.left" timestamp="1575842462641">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575839083879" />
+    <state width="1750" height="392" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575842462641" />
     <state width="1878" height="216" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763580" />
-    <state width="1750" height="303" key="GridCell.Tab.0.right" timestamp="1575839083880">
+    <state width="1750" height="392" key="GridCell.Tab.0.right" timestamp="1575842462642">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575839083880" />
+    <state width="1750" height="392" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575842462642" />
     <state width="1878" height="216" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763581" />
-    <state width="1750" height="534" key="GridCell.Tab.1.bottom" timestamp="1575836917994">
+    <state width="1750" height="353" key="GridCell.Tab.1.bottom" timestamp="1575839884971">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="534" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575836917994" />
-    <state width="1750" height="534" key="GridCell.Tab.1.center" timestamp="1575836917994">
+    <state width="1750" height="353" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1575839884971" />
+    <state width="1750" height="353" key="GridCell.Tab.1.center" timestamp="1575839884971">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="534" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575836917994" />
-    <state width="1750" height="534" key="GridCell.Tab.1.left" timestamp="1575836917993">
+    <state width="1750" height="353" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1575839884971" />
+    <state width="1750" height="353" key="GridCell.Tab.1.left" timestamp="1575839884970">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="534" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575836917993" />
-    <state width="1750" height="534" key="GridCell.Tab.1.right" timestamp="1575836917994">
+    <state width="1750" height="353" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1575839884970" />
+    <state width="1750" height="353" key="GridCell.Tab.1.right" timestamp="1575839884971">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="534" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575836917994" />
+    <state width="1750" height="353" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1575839884971" />
     <state x="430" y="235" key="SettingsEditor" timestamp="1575823543786">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -365,6 +366,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="658" y="185" key="refactoring.ChangeSignatureDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575835195127" />
+    <state x="561" y="266" key="run.anything.popup" timestamp="1575839414442">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="561" y="266" key="run.anything.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1575839414442" />
     <state x="583" y="270" width="670" height="631" key="search.everywhere.popup" timestamp="1575831615534">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
