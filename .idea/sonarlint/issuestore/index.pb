@@ -1,3 +1,25 @@
 
 X
 (src/main/java/com/advent/one/Module.java,b/b/bb8e688bfd4297b826b07039ce71ca098f488dfd
+R
+"out/test/advent2020/one/input1.txt,b/a/ba2450147cf21bc2ff08de3bb71387902702edbf
+R
+"out/test/advent2020/one/input2.txt,6/0/60d6e7f4a94398bb6f0956941941f60a958c87c3
+R
+"out/test/advent2020/two/input1.txt,d/f/dff921c3a33282114c26c2bcd9f405501fca1c8e
+Y
+)src/main/java/com/advent/two/Program.java,d/b/db0e23e0b0f6cc73c98af9a9b3161e497da1f875
+a
+1src/test/java/com/advent2020/two/ProgramTest.java,6/2/628b77da070a63d7914f31b597710c0a9f783a45
+V
+&src/test/java/com/advent2020/Util.java,b/f/bf064c27d48dbe95fcfa9d8f59378d4fb9397844
+^
+.src/main/java/com/advent/three/Coordinate.java,c/1/c19197406fbe6f3c4ae01a2bd0f2320a9b2cc767
+X
+(src/main/java/com/advent/three/Wire.java,0/f/0f507e592d3f153bb8241d963e46556d841cc69b
+a
+1src/test/java/com/advent2020/three/WiresTest.java,2/8/28d8cb160c4f9fd81f13470b03a38c22e57d7cd3
+j
+:src/test/java/com/advent2020/four/SecureContainerTest.java,c/5/c51d01727073b9a734aadb142ec16266242bfbef
+b
+2src/main/java/com/advent/four/PasswordCracker.java,5/5/55f91218ffbd927dd9275b0151887d91b66b46f3

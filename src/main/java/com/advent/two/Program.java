@@ -9,8 +9,8 @@ import java.util.stream.Collectors;
  */
 public class Program {
 
-    private final List<Integer> intCode;
-    private int instructionPointer = 0;
+    protected final List<Integer> intCode;
+    protected int instructionPointer = 0;
 
     public Program(List<Integer> intCode) {
         this.intCode = intCode;
@@ -50,7 +50,7 @@ public class Program {
         };
     }
 
-    private void opCodeOne() {
+    protected void opCodeOne() {
         var par1 = intCode.get(intCode.get(instructionPointer +1));
         var par2 = intCode.get(intCode.get(instructionPointer +2));
         var target = intCode.get(instructionPointer +3);
@@ -58,7 +58,7 @@ public class Program {
         instructionPointer += 4;
     }
 
-    private void opCodeTwo() {
+    protected void opCodeTwo() {
         var one = intCode.get(intCode.get(instructionPointer +1));
         var two = intCode.get(intCode.get(instructionPointer +2));
         var target = intCode.get(instructionPointer +3);
