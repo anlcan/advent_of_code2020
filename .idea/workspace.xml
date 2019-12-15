@@ -2,10 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a97e0d7-1f97-4109-9601-24b55dce4346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/five/input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jgrapht_jgrapht_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f507e592d3f153bb8241d963e46556d841cc69b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28d8cb160c4f9fd81f13470b03a38c22e57d7cd3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55f91218ffbd927dd9275b0151887d91b66b46f3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60d6e7f4a94398bb6f0956941941f60a958c87c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/628b77da070a63d7914f31b597710c0a9f783a45" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba2450147cf21bc2ff08de3bb71387902702edbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bb8e688bfd4297b826b07039ce71ca098f488dfd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf064c27d48dbe95fcfa9d8f59378d4fb9397844" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c19197406fbe6f3c4ae01a2bd0f2320a9b2cc767" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c51d01727073b9a734aadb142ec16266242bfbef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db0e23e0b0f6cc73c98af9a9b3161e497da1f875" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dff921c3a33282114c26c2bcd9f405501fca1c8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/advent/six/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/advent/six/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/advent/six/Orbit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/advent/six/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/advent2020/six/Orbital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/six/input1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advent/five/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advent/five/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/advent2020/five/ComputerFiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/advent2020/five/ComputerFiveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advent2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advent2020.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +91,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -85,12 +102,13 @@
       <recent name="com.advent2020" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/six" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComputerFiveTest.inputTwo">
+  <component name="RunManager" selected="JUnit.Orbital.inputOne">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -99,23 +117,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComputerFiveTest.derefTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.advent2020.five.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.advent2020.five" />
-      <option name="MAIN_CLASS_NAME" value="com.advent2020.five.ComputerFiveTest" />
-      <option name="METHOD_NAME" value="derefTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,17 +172,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerFiveTest.modeTestTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Orbital.basic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.advent2020.five.*" />
+          <option name="PATTERN" value="com.advent2020.six.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.advent2020.five" />
-      <option name="MAIN_CLASS_NAME" value="com.advent2020.five.ComputerFiveTest" />
-      <option name="METHOD_NAME" value="modeTestTwo" />
+      <option name="PACKAGE_NAME" value="com.advent2020.six" />
+      <option name="MAIN_CLASS_NAME" value="com.advent2020.six.Orbital" />
+      <option name="METHOD_NAME" value="basic" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Orbital.inputOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.advent2020.six.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.advent2020.six" />
+      <option name="MAIN_CLASS_NAME" value="com.advent2020.six.Orbital" />
+      <option name="METHOD_NAME" value="inputOne" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -215,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Orbital.inputOne" />
+        <item itemvalue="JUnit.Orbital.basic" />
         <item itemvalue="JUnit.ComputerFiveTest.inputTwo" />
         <item itemvalue="JUnit.ComputerFiveTest.inputHalf" />
         <item itemvalue="JUnit.ComputerFiveTest.inputOne" />
-        <item itemvalue="JUnit.ComputerFiveTest.derefTest" />
-        <item itemvalue="JUnit.ComputerFiveTest.modeTestTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +281,7 @@
       <workItem from="1575808448768" duration="18503000" />
       <workItem from="1575880179409" duration="534000" />
       <workItem from="1576227956763" duration="14000" />
-      <workItem from="1576396622674" duration="14843000" />
+      <workItem from="1576396622674" duration="21188000" />
     </task>
     <task id="LOCAL-00001" summary="two star">
       <created>1575828727231</created>
@@ -304,10 +322,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="two star test cases" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="721" y="313" key="#com.intellij.ide.util.MemberChooser" timestamp="1576420649006">
+    <state x="721" y="313" key="#com.intellij.ide.util.MemberChooser" timestamp="1576439652920">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="721" y="313" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1576420649006" />
+    <state x="721" y="313" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1576439652920" />
     <state x="773" y="334" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1177@0.23.1920.1177" timestamp="1575666619867" />
     <state x="564" y="266" width="828" height="654" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575824563457">
       <screen x="0" y="23" width="1792" height="1097" />
@@ -319,10 +337,10 @@
     </state>
     <state x="605" y="324" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575807006386" />
     <state x="648" y="346" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1575665881576" />
-    <state x="634" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576401092396">
+    <state x="634" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576440257771">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="634" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1576401092396" />
+    <state x="634" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1576440257771" />
     <state x="1306" y="333" key="#xdebugger.evaluate" timestamp="1576415291300">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -331,25 +349,25 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1575828752405" />
-    <state width="1750" height="294" key="GridCell.Tab.0.bottom" timestamp="1576435866925">
+    <state width="1750" height="294" key="GridCell.Tab.0.bottom" timestamp="1576442580549">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="294" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1576435866925" />
+    <state width="1750" height="294" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1576442580549" />
     <state width="1878" height="216" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763582" />
-    <state width="1750" height="294" key="GridCell.Tab.0.center" timestamp="1576435866924">
+    <state width="1750" height="294" key="GridCell.Tab.0.center" timestamp="1576442580548">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="294" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1576435866924" />
+    <state width="1750" height="294" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1576442580548" />
     <state width="1878" height="216" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763581" />
-    <state width="1750" height="294" key="GridCell.Tab.0.left" timestamp="1576435866924">
+    <state width="1750" height="294" key="GridCell.Tab.0.left" timestamp="1576442580548">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="294" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1576435866924" />
+    <state width="1750" height="294" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1576442580548" />
     <state width="1878" height="216" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763580" />
-    <state width="1750" height="294" key="GridCell.Tab.0.right" timestamp="1576435866925">
+    <state width="1750" height="294" key="GridCell.Tab.0.right" timestamp="1576442580549">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="294" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1576435866925" />
+    <state width="1750" height="294" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1576442580549" />
     <state width="1878" height="216" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763581" />
     <state width="1750" height="353" key="GridCell.Tab.1.bottom" timestamp="1576432503511">
       <screen x="0" y="23" width="1792" height="1097" />
@@ -367,18 +385,19 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1750" height="353" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1576432503510" />
-    <state x="430" y="235" key="SettingsEditor" timestamp="1576421709013">
+    <state x="430" y="235" key="SettingsEditor" timestamp="1576437409747">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="430" y="235" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1576421709013" />
+    <state x="430" y="235" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1576437409747" />
     <state x="461" y="250" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1575666597664" />
     <state x="100" y="123" width="1592" height="897" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576432746164">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="100" y="123" width="1592" height="897" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1576432746164" />
-    <state x="664" y="512" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575666937646">
-      <screen x="0" y="23" width="1920" height="1177" />
+    <state x="620" y="479" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576437405301">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
+    <state x="620" y="479" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1792.1097@0.23.1792.1097" timestamp="1576437405301" />
     <state x="664" y="512" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1920.1177@0.23.1920.1177" timestamp="1575666937646" />
     <state x="679" y="495" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575828694739">
       <screen x="0" y="23" width="1792" height="1097" />
@@ -396,10 +415,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="561" y="266" key="run.anything.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1576421701158" />
-    <state x="583" y="270" width="670" height="631" key="search.everywhere.popup" timestamp="1575831615534">
+    <state x="583" y="270" width="670" height="631" key="search.everywhere.popup" timestamp="1576440504738">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="583" y="270" width="670" height="631" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1575831615534" />
+    <state x="583" y="270" width="670" height="631" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1576440504738" />
     <state x="625" y="288" width="670" height="676" key="search.everywhere.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1575672058816" />
   </component>
   <component name="XDebuggerManager">
