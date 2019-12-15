@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a97e0d7-1f97-4109-9601-24b55dce4346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advent/five/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/advent2020/five/ComputerFiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/five/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/five/input2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/advent/two/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advent/two/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/advent/five/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advent/five/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/advent2020/five/ComputerFiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/advent2020/five/ComputerFiveTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ComputerFiveTest.inputOne">
+  <component name="RunManager" selected="JUnit.ComputerFiveTest.inputTwo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -101,22 +99,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComputerFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.advent2020.five.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.advent2020.five" />
-      <option name="MAIN_CLASS_NAME" value="com.advent2020.five.ComputerFiveTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,6 +114,23 @@
       <option name="PACKAGE_NAME" value="com.advent2020.five" />
       <option name="MAIN_CLASS_NAME" value="com.advent2020.five.ComputerFiveTest" />
       <option name="METHOD_NAME" value="derefTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerFiveTest.inputHalf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.advent2020.five.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.advent2020.five" />
+      <option name="MAIN_CLASS_NAME" value="com.advent2020.five.ComputerFiveTest" />
+      <option name="METHOD_NAME" value="inputHalf" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -155,7 +154,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerFiveTest.modeTestOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComputerFiveTest.inputTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advent2020" />
       <extension name="coverage">
         <pattern>
@@ -165,7 +164,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.advent2020.five" />
       <option name="MAIN_CLASS_NAME" value="com.advent2020.five.ComputerFiveTest" />
-      <option name="METHOD_NAME" value="modeTestOne" />
+      <option name="METHOD_NAME" value="inputTwo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -216,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComputerFiveTest.inputTwo" />
+        <item itemvalue="JUnit.ComputerFiveTest.inputHalf" />
         <item itemvalue="JUnit.ComputerFiveTest.inputOne" />
         <item itemvalue="JUnit.ComputerFiveTest.derefTest" />
         <item itemvalue="JUnit.ComputerFiveTest.modeTestTwo" />
-        <item itemvalue="JUnit.ComputerFiveTest.modeTestOne" />
-        <item itemvalue="JUnit.ComputerFiveTest" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +263,7 @@
       <workItem from="1575808448768" duration="18503000" />
       <workItem from="1575880179409" duration="534000" />
       <workItem from="1576227956763" duration="14000" />
-      <workItem from="1576396622674" duration="10740000" />
+      <workItem from="1576396622674" duration="14843000" />
     </task>
     <task id="LOCAL-00001" summary="two star">
       <created>1575828727231</created>
@@ -305,10 +304,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="two star test cases" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="721" y="313" key="#com.intellij.ide.util.MemberChooser" timestamp="1576399365421">
+    <state x="721" y="313" key="#com.intellij.ide.util.MemberChooser" timestamp="1576420649006">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="721" y="313" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1576399365421" />
+    <state x="721" y="313" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1576420649006" />
     <state x="773" y="334" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1177@0.23.1920.1177" timestamp="1575666619867" />
     <state x="564" y="266" width="828" height="654" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575824563457">
       <screen x="0" y="23" width="1792" height="1097" />
@@ -332,47 +331,51 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1575828752405" />
-    <state width="1750" height="431" key="GridCell.Tab.0.bottom" timestamp="1576420200174">
+    <state width="1750" height="294" key="GridCell.Tab.0.bottom" timestamp="1576435866925">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="431" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1576420200174" />
+    <state width="1750" height="294" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1576435866925" />
     <state width="1878" height="216" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763582" />
-    <state width="1750" height="431" key="GridCell.Tab.0.center" timestamp="1576420200173">
+    <state width="1750" height="294" key="GridCell.Tab.0.center" timestamp="1576435866924">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="431" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1576420200173" />
+    <state width="1750" height="294" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1576435866924" />
     <state width="1878" height="216" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763581" />
-    <state width="1750" height="431" key="GridCell.Tab.0.left" timestamp="1576420200172">
+    <state width="1750" height="294" key="GridCell.Tab.0.left" timestamp="1576435866924">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="431" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1576420200172" />
+    <state width="1750" height="294" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1576435866924" />
     <state width="1878" height="216" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763580" />
-    <state width="1750" height="431" key="GridCell.Tab.0.right" timestamp="1576420200173">
+    <state width="1750" height="294" key="GridCell.Tab.0.right" timestamp="1576435866925">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="431" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1576420200173" />
+    <state width="1750" height="294" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1576435866925" />
     <state width="1878" height="216" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763581" />
-    <state width="1750" height="353" key="GridCell.Tab.1.bottom" timestamp="1576416686127">
+    <state width="1750" height="353" key="GridCell.Tab.1.bottom" timestamp="1576432503511">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="353" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1576416686127" />
-    <state width="1750" height="353" key="GridCell.Tab.1.center" timestamp="1576416686127">
+    <state width="1750" height="353" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1576432503511" />
+    <state width="1750" height="353" key="GridCell.Tab.1.center" timestamp="1576432503510">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="353" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1576416686127" />
-    <state width="1750" height="353" key="GridCell.Tab.1.left" timestamp="1576416686127">
+    <state width="1750" height="353" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1576432503510" />
+    <state width="1750" height="353" key="GridCell.Tab.1.left" timestamp="1576432503510">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="353" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1576416686127" />
-    <state width="1750" height="353" key="GridCell.Tab.1.right" timestamp="1576416686127">
+    <state width="1750" height="353" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1576432503510" />
+    <state width="1750" height="353" key="GridCell.Tab.1.right" timestamp="1576432503510">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="353" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1576416686127" />
-    <state x="430" y="235" key="SettingsEditor" timestamp="1575823543786">
+    <state width="1750" height="353" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1576432503510" />
+    <state x="430" y="235" key="SettingsEditor" timestamp="1576421709013">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="430" y="235" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1575823543786" />
+    <state x="430" y="235" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1576421709013" />
     <state x="461" y="250" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1575666597664" />
+    <state x="100" y="123" width="1592" height="897" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576432746164">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="100" y="123" width="1592" height="897" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1576432746164" />
     <state x="664" y="512" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575666937646">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
@@ -389,10 +392,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="658" y="185" key="refactoring.ChangeSignatureDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575835195127" />
-    <state x="561" y="266" key="run.anything.popup" timestamp="1575839414442">
+    <state x="561" y="266" key="run.anything.popup" timestamp="1576421701158">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="561" y="266" key="run.anything.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1575839414442" />
+    <state x="561" y="266" key="run.anything.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1576421701158" />
     <state x="583" y="270" width="670" height="631" key="search.everywhere.popup" timestamp="1575831615534">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -406,11 +409,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/advent2020/three/WiresTest.java</url>
           <line>37</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/advent/five/Computer.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

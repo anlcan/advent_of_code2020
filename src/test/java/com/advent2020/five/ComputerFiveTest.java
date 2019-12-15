@@ -77,5 +77,30 @@ public class ComputerFiveTest {
 
         p.execute(1); //14522484
     }
+
+    @Test
+    public void inputTwo() {
+        List<String> input1 = Util.readStrings("/five/input1.txt");
+        var p = Computer.of(input1.get(0));
+
+        p.execute(5); //4655956
+    }
+
+    @Test
+    public void inputHalf() {
+        String input = "3,21,1008,21,8,20,1005,20,22,107,8,21,20,1006,20,31," +
+                "1106,0,36,98,0,0,1002,21,125,20,4,20,1105,1,46,104," +
+                "999,1105,1,46,1101,1000,1,20,4,20,1105,1,46,98,99";
+        Computer c1 = Computer.of(input );
+        assertEquals(999,c1.execute(5));
+
+        Computer c2 = Computer.of(input );
+        assertEquals(1000,c2.execute(8));
+
+        Computer c3 = Computer.of(input );
+        assertEquals(1001,c3.execute(10));
+
+
+    }
 }
 
