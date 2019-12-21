@@ -1,7 +1,7 @@
 
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷»ªù8Ýö»¼î-
-‹ squid:ForLoopCounterChangedCheck*"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8ðùù»î-
 ‹ squid:ForLoopCounterChangedCheck/"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8ëý“¼î-
+‹ squid:ForLoopCounterChangedCheck*"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8ðùù»î-
 [
 squid:S106c"9Replace this use of System.out or System.err by a logger.(š—“¿ÿÿÿÿÿ8¬ûò»î-
 usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ú›Âñúÿÿÿÿ8ƒõø»î-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷»ªù8Ýö»¼î-

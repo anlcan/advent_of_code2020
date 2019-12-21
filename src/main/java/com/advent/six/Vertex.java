@@ -37,4 +37,8 @@ public class Vertex {
     public int hashCode() {
         return id != null ? id.hashCode() : 0;
     }
+
+    public List<Edge> getEdges() {
+        return edges;
+    }
 }

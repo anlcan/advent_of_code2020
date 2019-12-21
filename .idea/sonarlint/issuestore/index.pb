@@ -23,3 +23,17 @@ j
 :src/test/java/com/advent2020/four/SecureContainerTest.java,c/5/c51d01727073b9a734aadb142ec16266242bfbef
 b
 2src/main/java/com/advent/four/PasswordCracker.java,5/5/55f91218ffbd927dd9275b0151887d91b66b46f3
+[
++src/main/java/com/advent/five/Computer.java,0/d/0d2219f59d2291b9691e68c0eb47c42b553d2e59
+Q
+!src/test/resources/six/input1.txt,9/e/9ed4cb32e812399b86dbb1b2a4eb3934696922c0
+g
+7src/test/java/com/advent2020/five/ComputerFiveTest.java,b/1/b1c526ff8d4ced99947508de557232d0e06766c0
+X
+(src/main/java/com/advent/six/Vertex.java,6/a/6ac4022cf5690aa60e8d04e3958b21326adbbb9d
+V
+&src/main/java/com/advent/six/Edge.java,b/2/b296150a5ae2b836c3aa1f3827ee0bb6b391336f
+]
+-src/test/java/com/advent2020/six/Orbital.java,8/6/864a998bd25cb735d2cb66e581ccbde9d36d5106
+W
+'src/main/java/com/advent/six/Graph.java,3/c/3c13b4a430343dd8dee46a79d41d2ab06a8762ae

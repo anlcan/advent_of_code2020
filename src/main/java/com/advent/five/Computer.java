@@ -49,6 +49,13 @@ public class Computer {
         return mode;
     }
 
+    public int execute(int inputOne, int inputTwo) {
+        stack.push(inputTwo);
+        stack.push(inputOne);
+
+        return execute();
+    }
+
     public int execute(int input) {
         stack.push(input);
         return execute();
