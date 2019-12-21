@@ -15,7 +15,8 @@ public class Computer {
     protected final List<Integer> intCode;
     protected int instructionPointer = 0;
     protected Stack<Integer> stack = new Stack<>();
-    ;
+    public boolean stopOnOutput = false;
+    private boolean halted = false;
 
     public Computer(List<Integer> intCode) {
         this.intCode = intCode;
@@ -61,16 +62,19 @@ public class Computer {
         return execute();
     }
 
+    public boolean isHalted() {
+        return halted;
+    }
+
     public int execute() {
         //System.out.println(String.format("executing code at %s: %s", instructionPointer, intCode.get(instructionPointer)));
         final Integer instruction = intCode.get(instructionPointer);
-        System.out.print(instruction + " ");
+        //System.out.print(instruction + " ");
         var opCode = instruction % 100;
         return switch (opCode) {
             case 1:
             case 2:
             case 3:
-            case 4:
             case 5:
             case 6:
             case 7:
@@ -79,10 +83,17 @@ public class Computer {
                 operations.get(opCode).apply(instruction);
                 yield execute();
             }
+            case 4: {
+                operations.get(opCode).apply(instruction);
+                yield stopOnOutput? stack.pop(): execute();
+            }
+
+
             case 99:
                 System.out.println(stack.empty()?-9999:stack.peek());
                 System.out.println("halted");
                 //yield intCode.get(0);
+                halted = true;
                 yield stack.peek();
             default:
                 //throw new RuntimeException("unknown opcode: " + intCode.get(instructionPointer));
@@ -177,7 +188,7 @@ public class Computer {
         public Integer apply(int value) {
             var one = dereference(1, value);
             stack.push(one);
-            System.out.println(one);
+            //System.out.println(one);
             instructionPointer += 2;
            // System.out.println(String.format("%s", one));
             return 0;
