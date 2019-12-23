@@ -31,4 +31,12 @@ public class SifTest {
 
         assertEquals(2460, fewestZero.countOf(1) * fewestZero.countOf(2));
     }
+
+    @Test
+    public void partTwoTest() {
+        List<String> inputOne = Util.readStrings("/eight/input1.txt");
+        final SpaceImageFormat sif = new SpaceImageFormat(25,6).read(inputOne.get(0));
+        sif.render();
+        sif.rendered.print(); // LRFKU
+    }
 }

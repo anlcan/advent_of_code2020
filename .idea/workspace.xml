@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a97e0d7-1f97-4109-9601-24b55dce4346" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/advent/eight/SpaceImageFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/advent2020/eight/SifTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/eight/input1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/advent/eight/SpaceImageFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/advent/eight/SpaceImageFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/advent2020/eight/SifTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/advent2020/eight/SifTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SifTest.inputOneTest">
+  <component name="RunManager" selected="JUnit.SifTest.partTwoTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -120,23 +119,6 @@
       <option name="PACKAGE_NAME" value="com.advent2020.seven" />
       <option name="MAIN_CLASS_NAME" value="com.advent2020.seven.AmplifierControllerTest" />
       <option name="METHOD_NAME" value="amplifierLoopbackTesTwot" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AmplifierControllerTest.amplifierLoopbackTestOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="advent2020" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.advent2020.seven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.advent2020.seven" />
-      <option name="MAIN_CLASS_NAME" value="com.advent2020.seven.AmplifierControllerTest" />
-      <option name="METHOD_NAME" value="amplifierLoopbackTestOne" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -171,6 +153,23 @@
       <option name="PACKAGE_NAME" value="com.advent2020.eight" />
       <option name="MAIN_CLASS_NAME" value="com.advent2020.eight.SifTest" />
       <option name="METHOD_NAME" value="inputOneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SifTest.partTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advent2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.advent2020.eight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.advent2020.eight" />
+      <option name="MAIN_CLASS_NAME" value="com.advent2020.eight.SifTest" />
+      <option name="METHOD_NAME" value="partTwoTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -221,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SifTest.partTwoTest" />
         <item itemvalue="JUnit.SifTest.inputOneTest" />
         <item itemvalue="JUnit.SifTest.readTest" />
         <item itemvalue="JUnit.AmplifierControllerTest.inputTwoTest" />
         <item itemvalue="JUnit.AmplifierControllerTest.amplifierLoopbackTesTwot" />
-        <item itemvalue="JUnit.AmplifierControllerTest.amplifierLoopbackTestOne" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +272,7 @@
       <workItem from="1576513256446" duration="14000" />
       <workItem from="1576513294872" duration="13000" />
       <workItem from="1576616502445" duration="11000" />
-      <workItem from="1576960238744" duration="13305000" />
+      <workItem from="1576960238744" duration="14366000" />
     </task>
     <task id="LOCAL-00001" summary="two star">
       <created>1575828727231</created>
@@ -349,25 +348,25 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="479" y="144" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1575828752405" />
-    <state width="1750" height="361" key="GridCell.Tab.0.bottom" timestamp="1577136845596">
+    <state width="1750" height="361" key="GridCell.Tab.0.bottom" timestamp="1577138023372">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="361" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1577136845596" />
+    <state width="1750" height="361" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1577138023372" />
     <state width="1878" height="216" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763582" />
-    <state width="1750" height="361" key="GridCell.Tab.0.center" timestamp="1577136845595">
+    <state width="1750" height="361" key="GridCell.Tab.0.center" timestamp="1577138023371">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="361" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1577136845595" />
+    <state width="1750" height="361" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1577138023371" />
     <state width="1878" height="216" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763581" />
-    <state width="1750" height="361" key="GridCell.Tab.0.left" timestamp="1577136845594">
+    <state width="1750" height="361" key="GridCell.Tab.0.left" timestamp="1577138023370">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="361" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1577136845594" />
+    <state width="1750" height="361" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1577138023370" />
     <state width="1878" height="216" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763580" />
-    <state width="1750" height="361" key="GridCell.Tab.0.right" timestamp="1577136845595">
+    <state width="1750" height="361" key="GridCell.Tab.0.right" timestamp="1577138023371">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="361" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1577136845595" />
+    <state width="1750" height="361" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1577138023371" />
     <state width="1878" height="216" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1575672763581" />
     <state width="1750" height="353" key="GridCell.Tab.1.bottom" timestamp="1577135708085">
       <screen x="0" y="23" width="1792" height="1097" />
